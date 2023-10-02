@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000000 0%, #000000 100%);
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav {
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1, h2 {
+  color: #ffffff; /* Heading text color */
+}
+
+/* Adjusting link colors */
+a {
+  color: #ffffff; /* Link color */
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  border-radius: 5px;
+  
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+
